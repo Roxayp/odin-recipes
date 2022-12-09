@@ -1,4 +1,9 @@
 
+* {
+    padding: 5px;
+    margin: 10px;
+}
+
 .title {
     font-family: 'Times New Roman', Times, serif;
     background-color: blueviolet;
