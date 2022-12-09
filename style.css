@@ -1,0 +1,26 @@
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+
+.intro {
+    font-style: italic;
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#section {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: darkmagenta;
+}
+
+ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslateblue;
+}
