@@ -4,36 +4,45 @@
     margin: 10px;
 }
 body {
-    background-image: url("../images/bg.jpeg");
+    background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 
-.title {
+.title, #title {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(226, 168, 43);
     font-weight: bold;
+    opacity: 0.8;
 }
 
 .intro {
-    font-style: italic;
+    font-style: bold;
+    font-size: 30px;
     text-align: center;
-    color: blueviolet;
+    color: rgb(87, 52, 24);
     font-family: 'Times New Roman', Times, serif;
 }
 
-#section {
+
+#section, ul {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    color: darkmagenta;
+    color: rgb(56, 44, 9);
+    text-align: center;
+    align-content: center;
 }
 
-ul {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: darkslateblue;
+
+
+.list {
+    text-align: center;
+    align-content: center;
+    background-color: rgb(226, 168, 43);
+    opacity: 0.8;
 }
 
 footer {
