@@ -15,6 +15,7 @@ body {
     text-decoration: underline;
     text-align: center;
     background-color: rgb(226, 168, 43);
+    border-radius: 10px;
     font-weight: bold;
     opacity: 0.8;
 }
@@ -39,10 +40,37 @@ body {
 
 
 .list {
-    text-align: center;
-    align-content: center;
+    /* center everything */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(226, 168, 43);
+    flex-direction: column;
     opacity: 0.8;
+    border-radius: 10px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(87, 52, 24);
+    border-radius: 5px;
+}
+
+.recipelink {
+    color:rgb(56, 44, 9);
+    text-decoration: none;
+}
+.recipelink:hover {
+    color: white;
+    text-decoration: underline;
+}
+.recipelink:visited{
+    color:black;
 }
 
 footer {
@@ -61,9 +89,13 @@ img {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 7px;
 }
 
-.flex-container {
+.imgbanner {
     display: flex;
     flex-direction: row;
 }
+
+
+
